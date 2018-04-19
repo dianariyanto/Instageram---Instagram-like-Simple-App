@@ -1,6 +1,5 @@
 package com.example.edityomurti.instageram.model;
 
-import android.graphics.drawable.Drawable;
 
 /**
  * Created by edityomurti on 19/04/18.

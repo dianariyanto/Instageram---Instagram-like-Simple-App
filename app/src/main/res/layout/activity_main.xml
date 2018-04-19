@@ -92,7 +92,4 @@
                 android:src="@drawable/ic_person"/>
         </LinearLayout>
     </RelativeLayout>
-
-
-
 </LinearLayout>

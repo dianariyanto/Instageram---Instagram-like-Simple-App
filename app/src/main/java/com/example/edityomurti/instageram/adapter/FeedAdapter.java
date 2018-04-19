@@ -14,10 +14,6 @@ import com.example.edityomurti.instageram.model.Post;
 
 import java.util.List;
 
-/**
- * Created by edityomurti on 19/04/18.
- */
-
 public class FeedAdapter extends RecyclerView.Adapter<FeedAdapter.FeedViewHolder>{
 
     private Context context;
