@@ -4,4 +4,11 @@
         <b>techcrunch</b> Here’s how Philz Coffee’s new order-ahead app works: when you open it, you get a carousel of coffee choices to order ahead. You’ll have your most recent order, and some of the most popular coffee choices. You then order ahead, go in, and grab your coffee. You can customize your order on the app like you do in the store, explaining what kind of sweetness you want in it and how much cream. You’ll see a picture of the barista that’s working on your coffee.
         <font color="#349aff">#PhilzCoffee #Tech #Coffee #apps</font>
     </string>
+    <string name="description2">
+        <b>techcrunch</b> Jeff Bezos reveals his four keys to success. Link in bio.
+        <font color="#349aff">#JeffBezos #amazon #startup #techinasia</font>
+    </string>
+    <string name="description3">
+        <b>startupgrind</b> Stop talking. start doing. Comment below on what you can start today!
+    </string>
 </resources>

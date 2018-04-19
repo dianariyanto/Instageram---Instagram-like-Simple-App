@@ -43,130 +43,13 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <ScrollView
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_main"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginBottom="42dp">
 
-            <LinearLayout
-                android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:background="@android:color/white">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:padding="8dp">
-
-                        <de.hdodenhof.circleimageview.CircleImageView
-                            android:id="@+id/iv_avatar"
-                            android:layout_width="34dp"
-                            android:layout_height="34dp"
-                            android:layout_centerVertical="true"
-                            android:scaleType="centerCrop"
-                            android:src="@drawable/tc_logo" />
-
-                        <TextView
-                            android:id="@+id/tv_name"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_centerVertical="true"
-                            android:layout_marginLeft="10dp"
-                            android:layout_toRightOf="@id/iv_avatar"
-                            android:text="techcrunch"
-                            android:textColor="@android:color/black"
-                            android:textSize="14dp" />
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_alignParentEnd="true"
-                            android:layout_centerVertical="true"
-                            android:src="@drawable/ic_more_vert_black_24dp" />
-                    </RelativeLayout>
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:adjustViewBounds="true"
-                        android:scaleType="fitCenter"
-                        android:src="@drawable/sample_photo" />
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="40dp"
-                        android:paddingTop="8dp"
-                        android:paddingBottom="8dp"
-                        android:paddingRight="10dp">
-
-                        <ImageView
-                            android:id="@+id/iv_like"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_centerVertical="true"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/ic_like_new" />
-
-                        <ImageView
-                            android:id="@+id/iv_comment"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_centerVertical="true"
-                            android:layout_toRightOf="@id/iv_like"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/ic_comment_new" />
-
-                        <ImageView
-                            android:id="@+id/iv_send"
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_centerVertical="true"
-                            android:layout_toRightOf="@id/iv_comment"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/ic_send_new" />
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:layout_alignParentEnd="true"
-                            android:layout_centerVertical="true"
-                            android:scaleType="fitCenter"
-                            android:src="@drawable/ic_bookmark_new" />
-                    </RelativeLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:paddingBottom="10dp"
-                        android:paddingLeft="10dp"
-                        android:paddingRight="10dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="1,634 likes"
-                            android:textColor="@android:color/black"
-                            android:textSize="14dp" />
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="3dp"
-                            android:lineSpacingMultiplier="1.2"
-                            android:text="@string/description"
-                            android:textSize="14sp" />
-                    </LinearLayout>
-
-                </LinearLayout>
-            </LinearLayout>
-        </ScrollView>
+        </android.support.v7.widget.RecyclerView>
 
         <View
             android:layout_width="match_parent"
